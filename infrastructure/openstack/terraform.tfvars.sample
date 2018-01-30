@@ -1,0 +1,15 @@
+// OpenStack authentication and project settings
+// are provided by environment (please source your 
+// OpenStack RC File v3)
+
+// SSH settings for remote-exec access are expected to
+// be available via your environment (e.g. by using
+// ssh-agent and respective $SSH_AUTH_SOCK)
+
+// Name prefix for created entities
+name_prefix = "my-nfv"
+
+// Id of the keypair which is available in your OpenStack.
+// The public-key will be put into the instance's
+// authorized_keys file
+instance_keypair = "my_pubkey_01"
